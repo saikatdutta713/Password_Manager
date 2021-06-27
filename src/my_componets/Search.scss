@@ -1,0 +1,29 @@
+.search_box {
+    // height: 30px;
+    position: relative;
+
+    & .search_input {
+        width: 40vw;
+        height: 35px;
+        border-radius: 20px;
+        box-sizing: border-box;
+        padding-left: 15px;
+        border: 0;
+        font-size: 17px;
+    }
+
+    & .search_btn {
+        position: absolute;
+        right: 0%;
+        bottom: 0px;
+        padding: 6px 15px;
+        border-radius: 20px;
+        background: #46ed99;
+        color: ivory;
+        box-sizing: border-box;
+    }
+
+    & input:focus::placeholder {
+        opacity: 0;
+    }
+}
